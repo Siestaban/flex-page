@@ -9,6 +9,7 @@
 .header {
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 
 /* header top */
@@ -16,6 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
     background-color: rgb(92, 92, 92);
 }
 
@@ -30,6 +32,26 @@ a {
     color: white;
 }
 
+/* header bottom */
+.bottom {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: khaki;
+}
+
+.left > * {
+    margin-bottom: 8px;
+}
+
+.left button {
+    padding: 4px 20px;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: 500;
+    background-color: rgb(45, 88, 143);
+    color: white;
+}
 
 /* images */
 .logo {
