@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+/* header top */
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(92, 92, 92);
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* images */
+.logo {
+    width: 100px;
+    height: auto;
+    margin: -10px;
+    padding-left: 10px;
+}
+
+.food {
+    width: 300px;
+    height: auto;
+}
